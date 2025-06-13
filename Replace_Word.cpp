@@ -5,9 +5,10 @@ int main(){
     string s, x;
     cin >> s >> x;
 
-    for (string::iterator it = s.begin(); it < s.end(); it++){
-        cout << *it << endl;
+    for (int i = 0; i < s.size(); i++){
+        cout << s[i] << endl;
     }
+    
 
     return 0;
 }
